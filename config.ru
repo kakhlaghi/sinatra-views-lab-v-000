@@ -1,3 +1,6 @@
 require './config/environment'
+require 'sinatra'
 
-run App
+require_relative './app'
+
+run Application
